@@ -1,0 +1,366 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS MENU NAVIGATION */
+.navbar{
+    padding: 20px 150px;
+    background-color: #e9ecef!important;
+}
+.nav-item{
+    padding-left: 20px;
+}
+.nav-item a:hover{
+    background-color: #41afff;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.nav-link{
+    color: black;
+    font-family: 'Sarabun', sans-serif;
+}
+.signup{
+    padding-left: 10px;
+}
+.nav .signup .btn{
+    box-shadow: 3px 5px 12px #adb3e2;
+    font-family: 'Sarabun', sans-serif;
+}
+
+/* CSS JUMBOTRON 1 */
+.jumbotron1{
+    display: flex;
+    padding: 20px 150px 0px 150px;
+    margin-bottom: 0px !important;
+}
+.btnstarted .btn{
+    box-shadow: 0px 14px 23px #adb3e2;
+}
+.main1left{
+    padding-top: 50px;
+}
+.main1right{
+    text-align: center;
+}
+.main1right img{
+    width: 80%;
+    height: 350px;
+}
+
+/* CSS JUMBOTRON 2 */
+.jumbotron2{
+    text-align: center;
+    background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
+    padding: 50px 100px 20px 100px;
+    margin-bottom: 0px !important;
+}
+.jumbotron2 h3{
+    margin: auto;
+}
+.bisnisrow{
+    padding: 50px 0px;
+}
+.bisnisblock{
+    text-align: center;
+    padding: 0px 50px;
+}
+.shapebisnis h6{
+    padding-top: 10px;
+}
+.shaperound{
+    height: 40px;
+    width: 45px;
+    border-radius: 15px;
+    margin: auto;
+    padding-top: 5px;
+    background-color: #fff;
+    box-shadow: 0px 14px 23px #d9dae0;
+}
+.shapebisnis p{
+    padding-top: 10px;
+}
+
+/* CSS JUMBOTRON 3 */
+.jumbotron3{
+    padding: 50px 150px 0px 150px;
+    margin-bottom: 0px !important;
+    background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
+}
+.manage1left{
+    text-align: left;
+}
+.manage1right{
+    text-align: center;
+}
+.manage1right img{
+    width: 100%;
+    height: 350px;
+}
+.shaperoundmanage{
+    height: 40px;
+    width: 45px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #fff;
+    box-shadow: 0px 14px 23px #d9dae0;
+}
+
+/* CSS JUMBOTRON 4 */
+.jumbotron4{
+    padding: 50px 150px 0px 150px;
+    margin-bottom: 0px !important;
+    background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
+}
+.perform1left{
+    text-align: left;
+}
+.perform1right{
+    text-align: center;
+}
+.perform1right img{
+    width: 100%;
+    height: 375px;
+}
+.shaperoundperform{
+    height: 40px;
+    width: 45px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #fff;
+    box-shadow: 0px 14px 23px #d9dae0;
+}
+
+/* CSS JUMBOTRON 5 */
+.jumbotron5{
+    padding: 50px 150px 0px 150px;
+    margin-bottom: 0px !important;
+    background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
+}
+.team1left{
+    text-align: left;
+    padding-top: 50px;
+}
+.team1right{
+    text-align: center;
+    padding-left: 20px;
+}
+.team1right img{
+    width: 100%;
+    height: 360px;
+}
+.shaperoundteam{
+    height: 38px;
+    width: 45px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #fff;
+    box-shadow: 0px 14px 23px #d9dae0;
+}
+
+/* CSS JUMBOTRON 6 */
+.jumbotron6{
+    padding: 50px 150px 0px 150px;
+    margin-bottom: 0px !important;
+    background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
+}
+.shaperoundcompanies{
+    height: 38px;
+    width: 45px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #fff;
+    box-shadow: 0px 14px 23px #d9dae0;
+}
+.companies{
+    text-align: center;
+    padding: 50px 20px;
+}
+.companies .row .col-md-4{
+    padding: 0px 35px;
+}
+.box-companies{
+    height: 200px;
+    box-shadow: 0px 1px 23px #aaaaaa;
+    padding: 20px;
+    border-radius: 10px;
+}
+.box-companies p{
+    font-size: 14px;
+}
+.shapetest1 img{
+    width: 50px;
+    height: 50px;
+}
+.shapetest2 img{
+    width: 50px;
+    height: 50px;
+}
+.shapetest3 img{
+    width: 50px;
+    height: 50px;
+}
+.testimoni-name .row .col-md-8{
+    padding-top: 5px;
+    text-align: left;
+}
+.testimoni-name h6{
+    margin: 0px;
+}
+
+/* CSS JUMBOTRON 7 */
+.jumbotron7{
+    padding: 50px 150px 0px 150px;
+    margin-bottom: 0px !important;
+    background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
+    text-align: center;
+}
+
+.numberrow{
+    padding: 50px 0px;
+}
+.numberblock{
+    text-align: center;
+    padding: 0px 0px;
+}
+.shapenumber h6{
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+.shaperound{
+    height: 40px;
+    width: 45px;
+    border-radius: 15px;
+    margin: auto;
+    padding-top: 5px;
+    background-color: #fff;
+    box-shadow: 0px 14px 23px #d9dae0;
+}
+.shapenumber p{
+    font-size: 14px;
+}
+
+/* CSS JUMBOTRON 8 */
+.jumbotron8{
+    padding: 50px 150px 0px 150px;
+    margin-bottom: 0px !important;
+    background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
+    text-align: center;
+    z-index: 0;
+}
+.submitemail{
+    margin-bottom: 200px;
+}
+.submitemail form input[type=email], select {
+    width: 20%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+.submitemail form button[type=submit] {
+    width: 15%;
+    background-color: #41afff;
+    box-shadow: 0px 0px 23px #adb3e2;
+    color: white;
+    padding: 5px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+
+  /* CSS JUMBOTRON FOOTER */
+  .jumbotronfooter{
+    padding: 100px 150px 0px 150px;
+    margin-bottom: 0px !important;
+    background-color: #0c2050;
+    text-align: center;
+    z-index: 0;
+}
+
+.price{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #3874ea 0%, #4eb4ff 100%);
+    z-index: 5;
+    margin-top: -180px;
+    margin-bottom: 80px;
+    padding: 30px 30px;
+}
+.price .row .col-md-8{
+    color: white;
+    text-align: left;
+}
+.price .row .col-md-4{
+    text-align: right;
+}
+.price button[type=submit] {
+    width: 70%;
+    background-color: #fff;
+    color: #3874ea;
+    padding: 5px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .footer{
+      padding-bottom: 150px;
+  }
+.footerleft{
+text-align: left;
+}
+.footerleft p{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.signupfooter{
+    padding-left: 10px;
+}
+.signupfooter .btn{
+    background-color: #4eb2ff;
+    box-shadow: 0px 0px 4px #adb3e2;
+}
+.footer .row .col-md-8 .nav .signupfooter a{
+    color: #fff;
+}
+.footer .row .col-md-8 .nav .nav-item a{
+    color: #fff;
+}
+.jumbotronfooter hr{
+    width: 100%;
+    text-align: center;
+    border: 1px solid grey;
+}
+.copyright{
+    padding-bottom: 20px;
+}
+.copyright .row .col-md-6 .copyrightleft{
+    text-align: left;
+}
+.copyright .row .col-md-6 .copyrightleft p{
+    color: #fff;
+    font-size: 14px;
+}
+.copyright .row .col-md-6 .copyrightright{
+    text-align: right;
+}
+.copyright .row .col-md-6 .copyrightright p{
+    color: #fff;
+    font-size: 14px;
+}
+.copyright .row .col-md-6 .copyrightright span{
+    padding: 0px 5px;
+}
