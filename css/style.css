@@ -12,6 +12,14 @@ body{
     box-shadow: 1px 1px 11px #adb3e2;
     z-index: 100;
 }
+/* Display None for responsive menu */
+@media screen and (max-width: 426px){
+    .navbar{
+      display: none;
+    }
+  }
+
+
 @media screen and (max-width: 1025px){
 .navbar{
     padding: 20px 50px;
@@ -64,6 +72,71 @@ body{
     background-color: #007bff;
 }
 
+/* CSS MENU RESPONSIVE */
+.responsivemenu .navbar{
+    display: none;
+}
+/* Display initial */
+@media screen and (max-width: 426px){
+    .responsivemenu .navbar{
+      display: inline-flex;
+      /* padding: 20px 150px; */
+      background-color: #f0f1fa!important;
+      position: fixed;
+      width: 100%;
+      box-shadow: 1px 1px 11px #adb3e2;
+      z-index: 100;
+    }
+  }
+  .iconmenu a:hover{
+    text-decoration: none;
+  }
+.iconmenu i{
+    font-size: 25px;
+    cursor:pointer;
+    color:black;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
+    box-shadow: 0px 14px 23px #adb3e2;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #181818;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Sarabun', sans-serif;
+  }
+  
+  .sidenav a:hover {
+    color: #fff;
+    padding: 8px 8px 8px 32px;
+    background-color: #007bff;
+    transition: 0.3s;
+  }
+  
+  .sidenav .closebtn {
+    /* position: absolute; */
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 180px;
+    z-index: 999;
+  }
+
+
 /* CSS JUMBOTRON 1 */
 .jumbotron1{
     display: flex;
@@ -75,6 +148,11 @@ body{
 .jumbotron1{
     padding: 100px 50px 0px 50px;
 }
+}
+@media screen and (max-width: 426px){
+    .jumbotron1{
+        padding-top: 50px;
+    }
 }
 .btnstarted .btn{
     font-size: 14px;
@@ -123,12 +201,17 @@ body{
     height: 50%;
 }
 }
+@media screen and (max-width: 426px){
+    .main1right img{
+        padding-top: 50px;
+    }
+}
 
 /* CSS JUMBOTRON 2 */
 .jumbotron2{
     text-align: center;
     background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
-    padding: 100px;
+    padding: 80px 100px 100px 100px;
     margin-bottom: 0px !important;
 }
 @media screen and (max-width: 1025px){
@@ -141,6 +224,12 @@ body{
     padding: 50px;
 }
 }
+@media screen and (max-width: 426px){
+.jumbotron2{
+    padding: 20px 50px 20px 50px;
+}
+}
+
 .jumbotron2 h2{
     margin: auto;
     font-family: 'Rubik', sans-serif;
@@ -149,6 +238,11 @@ body{
     .jumbotron2 h2{
         font-size: 30px;
     }
+}
+@media screen and (max-width: 426px){
+.jumbotron2{
+    font-size: 20px;
+}
 }
 .bisnisrow{
     padding-top: 100px;
@@ -165,6 +259,11 @@ body{
 @media screen and (max-width: 769px){
 .bisnisblock{
     padding: 0px;
+}
+}
+@media screen and (max-width: 426px){
+.bisnisblock{
+    padding-bottom: 20px;
 }
 }
 .shapebisnis h6{
@@ -192,6 +291,11 @@ body{
     padding-top: 10px;
 }
 }
+@media screen and (max-width: 426px){
+.shaperound{
+    padding-top: 8px;
+}
+}
 .shapebisnis p{
     padding-top: 10px;
     font-family: 'Sarabun', sans-serif;
@@ -200,6 +304,11 @@ body{
 .shapebisnis p{
     padding-top: 0px;
     font-size: 14px;
+}
+}
+@media screen and (max-width: 426px){
+.shapebisnis p{
+    padding: 0px 15px;
 }
 }
 
@@ -217,6 +326,11 @@ body{
 @media screen and (max-width: 769px){
 .jumbotron3{
     padding: 50px;
+}
+}
+@media screen and (max-width: 426px){
+.jumbotron3{
+    padding: 50px 50px 20px 50px;
 }
 }
 .manage1left{
@@ -253,7 +367,7 @@ body{
 }
 @media screen and (max-width: 769px){
 .manage1right{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 }
 .manage1right img{
@@ -262,8 +376,18 @@ body{
 }
 @media screen and (max-width: 769px){
 .manage1right img{
-    height: 250px;
+    height: 225px;
 }
+}
+@media screen and (max-width: 376px){
+    .manage1right img{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 321px){
+    .manage1right img{
+        height: 150px;
+    }
 }
 .shaperoundmanage{
     height: 60px;
@@ -298,6 +422,12 @@ body{
     padding: 50px;
 }
 }
+@media screen and (max-width: 426px){
+.jumbotron4{
+    padding: 0px 50px 50px 50px;
+}
+}
+
 .perform1left{
     text-align: left;
 }
@@ -316,6 +446,11 @@ body{
     font-size: 14px;
 }
 }
+@media screen and (max-width: 376px){
+.perform1left a , .perform1left i{
+    font-size: 12px;
+}
+}
 .perform1left p{
     padding-top: 5px;
     font-family: 'Sarabun', sans-serif;
@@ -329,13 +464,28 @@ body{
 .perform1right{
     text-align: center;
 }
+@media screen and (max-width: 769px){
+.perform1right{
+    padding-top: 50px;
+}
+}
 .perform1right img{
     width: 100%;
     height: 375px;
 }
 @media screen and (max-width: 769px){
 .perform1right img{
-    height: 320px;
+    height: 250px;
+}
+}
+@media screen and (max-width: 376px){
+.perform1right img{
+    height: 220px;
+}
+}
+@media screen and (max-width: 321px){
+.perform1right img{
+    height: 180px;
 }
 }
 .shaperoundperform{
@@ -371,9 +521,19 @@ body{
     padding: 50px;
 }
 }
+@media screen and (max-width: 426px){
+.jumbotron5{
+    padding: 20px 50px 50px 50px;
+}
+}
 .team1left{
     text-align: left;
     padding-top: 50px;
+}
+@media screen and (max-width: 426px){
+.team1left{
+    padding-top: 20px;
+}
 }
 .team1left h2{
     padding-top: 10px;
@@ -406,7 +566,12 @@ body{
 }
 @media screen and (max-width: 769px){
 .team1right{
-    padding-top: 50px;
+    padding-top: 100px;
+}
+}
+@media screen and (max-width: 426px){
+.team1right{
+    padding-top: 20px;
 }
 }
 .team1right img{
@@ -415,7 +580,17 @@ body{
 }
 @media screen and (max-width: 769px){
 .team1right img{
-    height: 280px;
+    height: 240px;
+}
+}
+@media screen and (max-width: 376px){
+.team1right img{
+    height: 200px;
+}
+}
+@media screen and (max-width: 321px){
+.team1right img{
+    height: 150px;
 }
 }
 .shaperoundteam{
@@ -423,7 +598,7 @@ body{
     width: 65px;
     border-radius: 15px;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 15px;
     background-color: #fff;
     box-shadow: 0px 14px 23px #d9dae0;
 }
@@ -434,16 +609,31 @@ body{
     padding-top: 10px;
 }
 }
+@media screen and (max-width: 426px){
+.shaperoundteam{
+    padding-top: 12px;
+}
+}
 
 /* CSS JUMBOTRON 6 */
 .jumbotron6{
-    padding: 100px 50px 100px 50px;
+    padding: 100px 150px 100px 150px;
     margin-bottom: 0px !important;
     background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
+}
+@media screen and (max-width: 1025px){
+    .jumbotron6{
+        padding: 100px 50px;
+    }
 }
 @media screen and (max-width: 769px){
 .jumbotron6{
     padding: 50px;
+}
+}
+@media screen and (max-width: 376px){
+.jumbotron6{
+    padding: 20px 50px 50px 50px;
 }
 }
 .jumbotron6 h2{
@@ -487,6 +677,13 @@ body{
     display: flex;
     justify-content: flex-end;
 }
+@media screen and (max-width: 426px){
+.arrow{
+    padding-top: 0px;
+    padding-bottom: 5px;
+    justify-content: flex-start;
+}
+}
 .arrowleft a{
     padding-right: 10px;
     font-size: 20px;
@@ -523,6 +720,11 @@ body{
     padding-right: 15px;
 }
 }
+@media screen and (max-width: 426px){
+.companies .row .col-md-4{
+    padding: 0px 0px 20px 0px;
+}
+}
 .box-companies{
     height: 200px;
     box-shadow: 0px 1px 23px #aaaaaa;
@@ -535,6 +737,17 @@ body{
     height: 180px;
 }
 }
+@media screen and (max-width: 426px){
+.box-companies{
+    height: 200px;
+}
+}
+@media screen and (max-width: 321px){
+.box-companies{
+    height: 220px;
+}
+}
+
 .box-companies p{
     font-size: 14px;
     font-family: 'Sarabun', sans-serif;
@@ -542,6 +755,11 @@ body{
 @media screen and (max-width: 769px){
 .box-companies p{
     font-size: 12px;
+}
+}
+@media screen and (max-width: 426px){
+.box-companies p{
+    font-size: 14px;
 }
 }
 .shapetest1 img{
@@ -556,9 +774,26 @@ body{
     width: 50px;
     height: 50px;
 }
+@media screen and (max-width: 426px){
+.testimoni-name .row .col-md-4{
+    padding: 0px;
+}
+}
+@media screen and (max-width: 426px){
+.testimoni-name .row .col-md-4 {
+    text-align: center;
+}
+}
 .testimoni-name .row .col-md-8{
     padding-top: 5px;
+    padding-left: 15px;
     text-align: left;
+}
+@media screen and (max-width: 426px){
+.testimoni-name .row .col-md-8{
+    text-align: center;
+    padding: 0px;
+}
 }
 .testimoni-name .row .col-md-8 p{
     font-family: 'Sarabun', sans-serif;
@@ -589,8 +824,18 @@ body{
     font-size: 30px;
 }
 }
+@media screen and (max-width: 426px){
+.jumbotron7 h2{
+    font-size: 28px;
+}
+}
 .numberrow{
     padding: 50px 0px;
+}
+@media screen and (max-width: 426px){
+.numberrow{
+    padding: 20px 0px;
+}
 }
 .numberblock{
     text-align: center;
@@ -642,16 +887,52 @@ body{
     height: 400px;
 }
 }
+@media screen and (max-width: 426px){
+.jumbotron8{
+    height: 300px;
+}
+}
+@media screen and (max-width: 376px){
+.jumbotron8{
+    height: 325px;
+}
+}
 .jumbotron8 h2{
     font-family: 'Rubik', sans-serif;
+}
+@media screen and (max-width: 321px){
+.jumbotron8 h2{
+    padding: 0px 10px;
+    font-size: 28px;
+}
 }
 .jumbotron8 p{
     font-family: 'Sarabun', sans-serif;
     padding: 15px 0px;
 }
+@media screen and (max-width: 426px){
+.jumbotron8 p{
+    padding: 0px;
+}
+}
 .submitemail{
-    margin-bottom: 200px;
+    padding-bottom: 200px;
     font-family: 'Sarabun', sans-serif;
+}
+@media screen and (max-width: 769px){
+.submitemail{
+    padding: 20px 0px 50px 0px;
+}
+}
+@media screen and (max-width: 376px){
+.submitemail{
+    padding: 20px 0px 100px 0px;
+}
+}
+@media screen and (max-width: 376px){
+.submitemail form{
+    display: inline-grid;
+}
 }
 .submitemail form input[type=email], select {
     width: 20%;
@@ -670,6 +951,16 @@ body{
 @media screen and (max-width: 769px){
 .submitemail form input[type=email], select{
     width: 40%;
+}
+}
+@media screen and (max-width: 426px){
+.submitemail form input[type=email], select{
+    width: 45%;
+}
+}
+@media screen and (max-width: 376px){
+.submitemail form input[type=email], select{
+    width: 100%;
 }
 }
 
@@ -693,6 +984,19 @@ body{
 .submitemail form button[type=submit]{
     width: 25%;
     padding: 10px 5px;
+}
+}
+@media screen and (max-width: 426px){
+.submitemail form button[type=submit]{
+    width: 32%;
+    padding: 11px 5px;
+    font-size: 16px;
+}
+}
+@media screen and (max-width: 376px){
+.submitemail form button[type=submit]{
+    width: 70%;
+    margin: auto;
 }
 }
   .submitemail form button:hover{
@@ -742,6 +1046,23 @@ body{
     padding: 35px 30px;
 }
 }
+@media screen and (max-width: 426px){
+.price{
+    padding: 10px 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+}
+@media screen and (max-width: 376px){
+.price{
+    height: 175px;
+}
+}
+@media screen and (max-width: 321px){
+.price{
+    height: 160px;
+}
+}
 .price h3{
     font-family: 'Rubik', sans-serif;
 }
@@ -750,16 +1071,43 @@ body{
     font-size: 25px;
 }
 }
+@media screen and (max-width: 426px){
+.price h3{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+}
 .price p{
     font-family: 'Sarabun', sans-serif;
 }
-
+@media screen and (max-width: 426px){
+    .price p{
+        padding: 0px 10px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 376px){
+.price p{
+    font-size: 12px;
+}
+}
 .price .row .col-md-8{
     color: white;
     text-align: left;
 }
+@media screen and (max-width: 426px){
+.price .row .col-md-8{
+    text-align: center;
+}
+}
 .price .row .col-md-4{
     text-align: right;
+}
+@media screen and (max-width: 426px){
+.price .row .col-md-4{
+    text-align: center;
+}
 }
 .price button[type=submit] {
     width: 65%;
@@ -783,6 +1131,18 @@ body{
         padding: 10px 5px;
     }
 }
+@media screen and (max-width: 426px){
+.price button[type=submit]{
+    width: 55%;
+    padding: 5px;
+}
+}
+@media screen and (max-width: 376px){
+.price button[type=submit]{
+    width: 80%;
+    margin: auto;
+}
+}
   .price button:hover{
       transition: 0.3s;
       color: white;
@@ -791,8 +1151,18 @@ body{
   .footer{
       padding-bottom: 100px;
   }
+  @media screen and (max-width: 376px){
+    .footer{
+        padding-bottom: 50px;
+    }
+}
 .footerleft{
 text-align: left;
+}
+@media screen and (max-width: 426px){
+.footerleft{
+    text-align: center;
+}
 }
 .footerleft p{
     color: #fff;
@@ -807,6 +1177,11 @@ text-align: left;
 .signupfooter{
     padding-left: 10px;
 }
+@media screen and (max-width: 426px){
+.signupfooter{
+    padding-left: 0px;
+}
+}
 
 .nav .signupfooter a:hover{
     background: linear-gradient(to bottom, #0066ff 0%, #33ccff 100%);
@@ -814,6 +1189,12 @@ text-align: left;
 @media screen and (max-width: 769px){
 .nav .signupfooter a:hover{
     padding: 5px 10px;
+}
+}
+@media screen and (max-width: 426px){
+.footer .row .col-md-8 .nav{
+    display: inline;
+    text-align: center;
 }
 }
 .footer .row .col-md-8 .nav .signupfooter a{
@@ -831,12 +1212,27 @@ text-align: left;
     font-size: 12px;
 }
 }
+@media screen and (max-width: 426px){
+.footer .row .col-md-8 .nav .nav-item .nav-link{
+    padding: 5px;
+}
+}
+@media screen and (max-width: 426px){
+.footer .row .col-md-8 .nav .nav-item{
+    padding-left: 0px;
+}
+}
 .footer .row .col-md-8 .nav .nav-item a{
     color: #fff;
 }
 @media screen and (max-width: 769px){
 .footer .row .col-md-8 .nav .nav-item a:hover{
     padding: 5px 10px;
+}
+}
+@media screen and (max-width: 426px){
+.footer .row .col-md-8 .nav .nav-item a:hover{
+    padding: 5px;
 }
 }
 .jumbotronfooter hr{
@@ -850,6 +1246,11 @@ text-align: left;
 .copyright .row .col-md-6 .copyrightleft{
     text-align: left;
 }
+@media screen and (max-width: 426px){
+.copyright .row .col-md-6 .copyrightleft{
+    text-align: center;
+}
+}
 .copyright .row .col-md-6 .copyrightleft p{
     color: #fff;
     font-size: 14px;
@@ -862,6 +1263,11 @@ text-align: left;
 
 .copyright .row .col-md-6 .copyrightright{
     text-align: right;
+}
+@media screen and (max-width: 426px){
+.copyright .row .col-md-6 .copyrightright{
+    text-align: center;
+}
 }
 .copyright .row .col-md-6 .copyrightright p{
     color: #fff;
