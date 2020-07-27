@@ -32,7 +32,7 @@ body{
 }
 }
 .nav-item{
-    padding-left: 10px;
+    padding-left: 25px;
 }
 @media screen and (max-width: 769px){
 .nav-item .nav-link{
@@ -59,7 +59,8 @@ body{
     background-color: #f0f1fa!important;
 }
 .nav-link{
-    color: black;
+    color: #71788f;
+    font-size: 14px; 
     font-family: 'Sarabun', sans-serif;
 }
 .signup{
@@ -70,6 +71,7 @@ body{
     font-family: 'Sarabun', sans-serif;
     background-color: #41afff;
     border: none;
+    font-size: 14px;
     padding: 8px 16px;
 }
 @media screen and (max-width: 769px){
@@ -183,6 +185,8 @@ body{
 }
 .main1left h1{
     font-family: 'Rubik', sans-serif;
+    font-size: 44px;
+    color: #101f41;
 }
 @media screen and (max-width: 769px){
 .main1left h1{
@@ -191,7 +195,8 @@ body{
 }
 .main1left p{
     font-family: 'Sarabun', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
+    color: #71788f;
 }
 .main1right{
     text-align: center;
@@ -242,6 +247,8 @@ body{
 
 .jumbotron2 h2{
     margin: auto;
+    color: #101f41;
+    font-size: 34px;
     font-family: 'Rubik', sans-serif;
 }
 @media screen and (max-width: 769px){
@@ -278,12 +285,17 @@ body{
 }
 .shapebisnis h6{
     padding-top: 10px;
+    font-size: 16px;
+    color: #101f41;
 }
 @media screen and (max-width: 769px){
 .shapebisnis h6{
     padding-top: 0px;
     font-size: 18px;
 }
+}
+.shaperound img{
+    object-fit: fill;
 }
 .shaperound{
     height: 60px;
@@ -308,6 +320,8 @@ body{
 }
 .shapebisnis p{
     padding-top: 10px;
+    color: #71788f;
+    font-size: 16px;
     font-family: 'Sarabun', sans-serif;
 }
 @media screen and (max-width: 769px){
@@ -346,8 +360,15 @@ body{
 .manage1left{
     text-align: left;
 }
+.manage1left a{
+    text-decoration: none;
+    color: #37b9f1;
+    font-size: 14px;
+}
 .manage1left h2{
     padding-top: 20px;
+    color: #101f41;
+    font-size: 34px;
     font-family: 'Rubik', sans-serif;
 }
 @media screen and (max-width: 769px){
@@ -364,6 +385,8 @@ body{
 .manage1left p{
     padding-top: 10px;
     padding-right: 15px;
+    color: #71788f;
+    font-size: 16px;
     font-family: 'Sarabun', sans-serif;
 }
 @media screen and (max-width: 769px){
@@ -399,6 +422,9 @@ body{
     .manage1right img{
         height: 150px;
     }
+}
+.shaperoundmanage img{
+    object-fit: fill;
 }
 .shaperoundmanage{
     height: 60px;
@@ -444,6 +470,8 @@ body{
 }
 .perform1left h2{
     padding-top: 10px;
+    color: #101f41;
+    font-size: 34px;
     font-family: 'Rubik', sans-serif;
 }
 @media screen and (max-width: 769px){
@@ -451,6 +479,10 @@ body{
     padding-top: 0px;
     font-size: 30px;
 }
+}
+.perform1left a{
+    font-size: 14px;
+    color: #37b9f1;
 }
 @media screen and (max-width: 769px){
 .perform1left a, .perform1left i{
@@ -464,6 +496,8 @@ body{
 }
 .perform1left p{
     padding-top: 5px;
+    color: #71788f;
+    font-size: 16px;
     font-family: 'Sarabun', sans-serif;
 }
 @media screen and (max-width: 769px){
@@ -499,6 +533,9 @@ body{
 .perform1right img{
     height: 180px;
 }
+}
+.shaperoundperform img{
+    object-fit: fill;
 }
 .shaperoundperform{
     height: 60px;
@@ -549,6 +586,8 @@ body{
 }
 .team1left h2{
     padding-top: 10px;
+    color: #101f41;
+    font-size: 34px;
     font-family: 'Rubik', sans-serif;
 }
 @media screen and (max-width: 769px){
@@ -557,6 +596,10 @@ body{
     font-size: 30px;
 }
 }
+.team1left a{
+    color: #37b9f1;
+    font-size: 14px;
+}
 @media screen and (max-width: 769px){
 .team1left a , .team1left i{
     font-size: 14px;
@@ -564,6 +607,8 @@ body{
 }
 .team1left p{
     padding-top: 5px;
+    font-size: 16px;
+    color: #71788f;
     font-family: 'Sarabun', sans-serif;
 }
 @media screen and (max-width: 769px){
@@ -605,6 +650,9 @@ body{
 .team1right img{
     height: 150px;
 }
+}
+.shaperoundteam img{
+    object-fit: fill;
 }
 .shaperoundteam{
     height: 60px;
@@ -651,6 +699,8 @@ body{
 }
 .jumbotron6 h2{
     padding-top: 10px;
+    color: #101f41;
+    font-size: 34px;
     font-family: 'Rubik', sans-serif;
 }
 @media screen and (max-width: 1025px){
@@ -663,6 +713,9 @@ body{
     font-size: 28px;
     padding-bottom: 20px;
 }
+}
+.shaperoundcompanies img{
+    object-fit: fill;
 }
 .shaperoundcompanies{
     height: 60px;
@@ -763,6 +816,7 @@ body{
 
 .box-companies p{
     font-size: 14px;
+    color: #71788f;
     font-family: 'Sarabun', sans-serif;
 }
 @media screen and (max-width: 769px){
@@ -811,10 +865,14 @@ body{
 }
 .testimoni-name .row .col-md-8 p{
     font-family: 'Sarabun', sans-serif;
+    color: #71788f;
+    font-size: 14px;
 }
 .testimoni-name h6{
     margin: 0px;
     font-family: 'Sarabun', sans-serif;
+    color: #101f41;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -831,6 +889,8 @@ body{
 }
 }
 .jumbotron7 h2{
+    color: #101f41;
+    font-size: 34px;
     font-family: 'Rubik', sans-serif;
 }
 @media screen and (max-width: 769px){
@@ -872,10 +932,15 @@ body{
     background-color: #fff;
     box-shadow: 0px 14px 23px #d9dae0;
 }
+.demo span{
+    color: #101f41;
+    font-size: 26px;
+}
 .shapenumber p{
     padding-top: 10px;
     font-family: 'Sarabun', sans-serif;
-    font-size: 14px;
+    font-size: 11px;
+    color: #71788f;
 }
 
 /* CSS JUMBOTRON 8 */
@@ -912,6 +977,8 @@ body{
 }
 }
 .jumbotron8 h2{
+    font-size: 34px;
+    color: #101f41;
     font-family: 'Rubik', sans-serif;
 }
 @media screen and (max-width: 321px){
@@ -922,6 +989,8 @@ body{
 }
 .jumbotron8 p{
     font-family: 'Sarabun', sans-serif;
+    color: #71788f;
+    font-size: 16px;
     padding: 15px 0px;
 }
 @media screen and (max-width: 426px){
@@ -955,6 +1024,8 @@ body{
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 5px;
+    color: #b0b5c7;
+    font-size: 16px;
     box-sizing: border-box;
   }
   @media screen and (max-width: 1025px){
@@ -1078,6 +1149,7 @@ body{
 }
 }
 .price h3{
+    font-size: 34px;
     font-family: 'Rubik', sans-serif;
 }
 @media screen and (max-width: 769px){
@@ -1092,6 +1164,7 @@ body{
 }
 }
 .price p{
+    font-size: 16px;
     font-family: 'Sarabun', sans-serif;
 }
 @media screen and (max-width: 426px){
@@ -1127,7 +1200,7 @@ body{
     width: 65%;
     background-color: #fff;
     color: #3874ea;
-    padding: 15px;
+    padding: 10px;
     margin: 10px;
     border: none;
     border-radius: 4px;
@@ -1178,9 +1251,12 @@ text-align: left;
     text-align: center;
 }
 }
+.footerleft img{
+    object-fit: fill;
+}
 .footerleft p{
-    color: #fff;
-    font-size: 14px;
+    color: #939eb8;
+    font-size: 16px;
     padding-top: 15px;
 }
 @media screen and (max-width: 769px){
@@ -1217,6 +1293,7 @@ text-align: left;
 }
 .footer .row .col-md-8 .nav .signupfooter a{
     color: #fff;
+    font-size: 14px;
     padding: 7px 20px;
 }
 @media screen and (max-width: 769px){
@@ -1242,7 +1319,8 @@ text-align: left;
 }
 }
 .footer .row .col-md-8 .nav .nav-item a{
-    color: #fff;
+    color: #939eb8;
+    font-size: 14px;
 }
 @media screen and (max-width: 769px){
 .footer .row .col-md-8 .nav .nav-item a:hover{
@@ -1271,7 +1349,7 @@ text-align: left;
 }
 }
 .copyright .row .col-md-6 .copyrightleft p{
-    color: #fff;
+    color: #939eb8;
     font-size: 14px;
 }
 @media screen and (max-width: 769px){
@@ -1281,7 +1359,7 @@ text-align: left;
 }
 .copyrightright span a{
     text-decoration: none;
-    color: #fff;
+    color: #939eb8;
 }
 .copyrightright span a:hover{
     color: #0066ff;
@@ -1295,7 +1373,7 @@ text-align: left;
 }
 }
 .copyright .row .col-md-6 .copyrightright p{
-    color: #fff;
+    color: #939eb8;
     font-size: 14px;
 }
 .copyright .row .col-md-6 .copyrightright span{
