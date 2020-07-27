@@ -8,6 +8,10 @@
     <!-- Logo Icon-->
     <link rel="icon" href="assets/logobar.png" type="image/icon type">
 
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
     <!-- JS Menu -->
     <script src="js/main.js"></script>
 
@@ -31,7 +35,7 @@
   <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-light">
+    <nav id="navbar" class="navbar navbar-light">
         <a class="navbar-brand" href="#">
             <img src="assets/logo3.png" width="100" height="30" alt="">
         </a>
@@ -457,11 +461,11 @@
                     <div class="col-md-6">
                         <div class="copyrightright">
                             <p>
-                                <span><i class="fab fa-facebook-f"></i></span>
-                                <span><i class="fab fa-twitter"></i></span>
-                                <span><i class="fab fa-instagram"></i></span>
-                                <span><i class="fab fa-linkedin-in"></i></span>
-                                <span><i class="fab fa-youtube"></i></span>
+                                <span><a href="#"><i class="fab fa-facebook-f"></i></a></span>
+                                <span><a href="#"><i class="fab fa-twitter"></i></a></span>
+                                <span><a href="#"><i class="fab fa-instagram"></i></a></span>
+                                <span><a href="#"><i class="fab fa-linkedin-in"></i></a></span>
+                                <span><a href="#"><i class="fab fa-youtube"></i></a></span>
                             </p>
                         </div>
                     </div>
@@ -489,6 +493,11 @@
 
     <!-- Optional JavaScript -->
 
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
     <!-- JQuery Menu Responsive -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
     <script type="text/javascript">
@@ -505,6 +514,22 @@
           }
         });
       </script>
+
+    <!-- JQuery Menu Shadow -->
+    
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script>
+
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 75) {
+                $("#navbar").addClass("shrink");
+                }
+            else if(scroll < 75){
+                $("#navbar").removeClass("shrink");
+                }
+            });
+    </script>
 
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
