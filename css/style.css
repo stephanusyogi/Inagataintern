@@ -56,7 +56,7 @@ body{
 .shrink{
     transition: 0.1s;
     box-shadow: 1px 1px 6px #adb3e2;
-    background-color: #f0f1fa!important;
+    background-color: #fff!important;
 }
 .nav-link{
     color: #71788f;
@@ -678,9 +678,9 @@ body{
 
 /* CSS JUMBOTRON 6 */
 .jumbotron6{
-    padding: 100px 150px 100px 150px;
+    padding: 100px 150px 50px 150px;
     margin-bottom: 0px !important;
-    background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
+    background-color: #fff;
 }
 @media screen and (max-width: 1025px){
     .jumbotron6{
@@ -738,6 +738,9 @@ body{
     padding-top: 10px;
 }
 }
+.companies .swiper-container{
+    background-color:#fff;
+}
 .arrow{
     padding-top: 100px;
     display: flex;
@@ -763,7 +766,22 @@ body{
 .arrowleft a , .arrowright a{
     font-size: 25px;
 }
-
+.arrowleft a:hover{
+    color: #092b79;
+}
+.arrowright a:hover{
+    color: #092b79;
+}
+.arrowleft a:focus{
+    outline: none!important;
+}
+.arrowright a:focus{
+    outline: none!important;
+}
+.swiper-pagination{
+    position: relative!important;
+    margin-top: 30px;
+}
 .companies{
     text-align: center;
     padding: 50px 20px;
@@ -792,15 +810,17 @@ body{
 }
 }
 .box-companies{
+    margin-top: 10px;
     height: 200px;
-    box-shadow: 0px 1px 23px #aaaaaa;
+    border: none;
+    box-shadow: 0px 1px 5px #e2e1e1;
     padding: 20px;
     border-radius: 10px;
 }
 @media screen and (max-width: 769px){
 .box-companies{
     padding: 15px 10px 10px 10px;
-    height: 180px;
+    height: 230px;
 }
 }
 @media screen and (max-width: 426px){
@@ -1311,6 +1331,11 @@ text-align: left;
 @media screen and (max-width: 426px){
 .footer .row .col-md-8 .nav .nav-item .nav-link{
     padding: 5px;
+}
+}
+@media screen and (max-width: 769px){
+.footer .row .nav .nav-item{
+    padding: 0px;
 }
 }
 @media screen and (max-width: 426px){
