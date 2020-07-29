@@ -172,9 +172,9 @@ body {
 }
 
 
-/* CSS JUMBOTRON 1 */
+/* CSS SECTION ABOUT */
 
-.jumbotron1 {
+.section-about {
 	display: flex;
 	padding: 150px 150px 0px 150px;
 	margin-bottom: 0px !important;
@@ -182,19 +182,19 @@ body {
 }
 
 @media screen and (max-width: 1025px) {
-	.jumbotron1 {
+	.section-about {
 		padding: 100px 50px 0px 50px;
 	}
 }
 
 @media screen and (max-width: 657px) {
-	.jumbotron1 {
+	.section-about {
 		padding: 50px 50px 0px 50px;
 	}
 }
 
 @media screen and (max-width: 426px) {
-	.jumbotron1 {
+	.section-about {
 		padding-top: 50px;
 	}
 }
@@ -298,9 +298,9 @@ body {
 }
 
 
-/* CSS JUMBOTRON 2 */
+/* CSS SECTION BISNIS */
 
-.jumbotron2 {
+.section-bisnis {
 	text-align: center;
 	background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
 	padding: 80px 100px 100px 100px;
@@ -308,24 +308,24 @@ body {
 }
 
 @media screen and (max-width: 1025px) {
-	.jumbotron2 {
+	.section-bisnis {
 		padding: 100px 50px;
 	}
 }
 
 @media screen and (max-width: 769px) {
-	.jumbotron2 {
+	.section-bisnis {
 		padding: 50px;
 	}
 }
 
 @media screen and (max-width: 426px) {
-	.jumbotron2 {
+	.section-bisnis {
 		padding: 20px 50px 20px 50px;
 	}
 }
 
-.jumbotron2 h2 {
+.section-bisnis h2 {
 	margin: auto;
 	color: #101f41;
 	font-size: 34px;
@@ -333,13 +333,13 @@ body {
 }
 
 @media screen and (max-width: 769px) {
-	.jumbotron2 h2 {
+	.section-bisnis h2 {
 		font-size: 30px;
 	}
 }
 
 @media screen and (max-width: 426px) {
-	.jumbotron2 {
+	.section-bisnis {
 		font-size: 20px;
 	}
 }
@@ -433,28 +433,28 @@ body {
 }
 
 
-/* CSS JUMBOTRON 3 */
+/* CSS SECTION MANAGE */
 
-.jumbotron3 {
+.section-manage {
 	padding: 100px 150px 100px 150px;
 	margin-bottom: 0px !important;
 	background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
 }
 
 @media screen and (max-width: 1025px) {
-	.jumbotron3 {
+	.section-manage {
 		padding: 100px 50px 100px 50px;
 	}
 }
 
 @media screen and (max-width: 769px) {
-	.jumbotron3 {
+	.section-manage {
 		padding: 50px;
 	}
 }
 
 @media screen and (max-width: 426px) {
-	.jumbotron3 {
+	.section-manage {
 		padding: 50px 50px 20px 50px;
 	}
 }
@@ -567,28 +567,28 @@ body {
 }
 
 
-/* CSS JUMBOTRON 4 */
+/* CSS SECTION PERFORM */
 
-.jumbotron4 {
+.section-perform {
 	padding: 100px 150px 100px 150px;
 	margin-bottom: 0px !important;
 	background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
 }
 
 @media screen and (max-width: 1025px) {
-	.jumbotron4 {
+	.section-perform {
 		padding: 100px 50px 100px 50px;
 	}
 }
 
 @media screen and (max-width: 769px) {
-	.jumbotron4 {
+	.section-perform {
 		padding: 50px;
 	}
 }
 
 @media screen and (max-width: 426px) {
-	.jumbotron4 {
+	.section-perform {
 		padding: 0px 50px 50px 50px;
 	}
 }
@@ -707,28 +707,28 @@ body {
 }
 
 
-/* CSS JUMBOTRON 5 */
+/* CSS SECTION TEAM */
 
-.jumbotron5 {
+.section-team {
 	padding: 100px 150px 100px 150px;
 	margin-bottom: 0px !important;
 	background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
 }
 
 @media screen and (max-width: 1025px) {
-	.jumbotron5 {
+	.section-team {
 		padding: 100px 50px 100px 50px;
 	}
 }
 
 @media screen and (max-width: 769px) {
-	.jumbotron5 {
+	.section-team {
 		padding: 50px;
 	}
 }
 
 @media screen and (max-width: 426px) {
-	.jumbotron5 {
+	.section-team {
 		padding: 20px 50px 50px 50px;
 	}
 }
@@ -860,33 +860,33 @@ body {
 }
 
 
-/* CSS JUMBOTRON 6 */
+/* CSS SECTION COMPANIES */
 
-.jumbotron6 {
+.section-companies {
 	padding: 100px 150px 50px 150px;
 	margin-bottom: 0px !important;
 	background-color: #fff;
 }
 
 @media screen and (max-width: 1025px) {
-	.jumbotron6 {
+	.section-companies {
 		padding: 100px 50px;
 	}
 }
 
 @media screen and (max-width: 769px) {
-	.jumbotron6 {
+	.section-companies {
 		padding: 50px;
 	}
 }
 
 @media screen and (max-width: 376px) {
-	.jumbotron6 {
+	.section-companies {
 		padding: 20px 50px 50px 50px;
 	}
 }
 
-.jumbotron6 h2 {
+.section-companies h2 {
 	padding-top: 10px;
 	color: #101f41;
 	font-size: 34px;
@@ -894,13 +894,13 @@ body {
 }
 
 @media screen and (max-width: 1025px) {
-	.jumbotron6 h2 {
+	.section-companies h2 {
 		padding-bottom: 40px;
 	}
 }
 
 @media screen and (max-width: 769px) {
-	.jumbotron6 h2 {
+	.section-companies h2 {
 		font-size: 28px;
 		padding-bottom: 20px;
 	}
@@ -1196,9 +1196,9 @@ body {
 }
 
 
-/* CSS JUMBOTRON 7 */
+/* CSS SECTION NUMBER */
 
-.jumbotron7 {
+.section-number {
 	padding: 100px 150px 50px 150px;
 	margin-bottom: 0px !important;
 	background: linear-gradient(to bottom, #f2f3fa 0%, #fcfdff 100%);
@@ -1206,25 +1206,25 @@ body {
 }
 
 @media screen and (max-width: 769px) {
-	.jumbotron7 {
+	.section-number {
 		padding: 50px;
 	}
 }
 
-.jumbotron7 h2 {
+.section-number h2 {
 	color: #101f41;
 	font-size: 34px;
 	font-family: 'Rubik', sans-serif;
 }
 
 @media screen and (max-width: 769px) {
-	.jumbotron7 h2 {
+	.section-number h2 {
 		font-size: 30px;
 	}
 }
 
 @media screen and (max-width: 426px) {
-	.jumbotron7 h2 {
+	.section-number h2 {
 		font-size: 28px;
 	}
 }
@@ -1277,13 +1277,13 @@ body {
 }
 
 
-/* CSS JUMBOTRON 8 */
+/* CSS CONTACT */
 
-.jumbotron .jumbotron8 {
+/* .jumbotron .jumbotron8 {
 	background: #fff!important;
-}
+} */
 
-.jumbotron8 {
+.section-contact {
 	/* padding: 50px 150px 0px 150px; */
 	margin-bottom: 0px !important;
 	background-image: url('../assets/bgstarted.png');
@@ -1294,49 +1294,49 @@ body {
 }
 
 @media screen and (max-width: 1025px) {
-	.jumbotron8 {
+	.section-contact {
 		height: 400px;
 	}
 }
 
 @media screen and (max-width: 769px) {
-	.jumbotron8 {
+	.section-contact {
 		height: 400px;
 	}
 }
 
 @media screen and (max-width: 426px) {
-	.jumbotron8 {
+	.section-contact {
 		height: 300px;
 	}
 }
 
 @media screen and (max-width: 376px) {
-	.jumbotron8 {
+	.section-contact {
 		height: 325px;
 	}
 }
 
 @media screen and (max-width: 335px) {
-    .jumbotron8 {
+    .section-contact {
         height: 350px;
     }
 }
 
-.jumbotron8 h2 {
+.section-contact h2 {
 	font-size: 34px;
 	color: #101f41;
 	font-family: 'Rubik', sans-serif;
 }
 
 @media screen and (max-width: 321px) {
-	.jumbotron8 h2 {
+	.section-contact h2 {
 		padding: 0px 10px;
 		font-size: 28px;
 	}
 }
 
-.jumbotron8 p {
+.section-contact p {
 	font-family: 'Sarabun', sans-serif;
 	color: #71788f;
 	font-size: 16px;
@@ -1344,7 +1344,7 @@ body {
 }
 
 @media screen and (max-width: 426px) {
-	.jumbotron8 p {
+	.section-contact p {
 		padding: 0px;
 	}
 }
@@ -1508,13 +1508,13 @@ select {
 }
 
 
-/* CSS JUMBOTRON FOOTER */
+/* CSS SECTION FOOTER */
 
-.footerframe .jumbotron {
+/* .footerframe .jumbotron {
 	border-radius: none!important;
-}
+} */
 
-.jumbotronfooter {
+.section-footer {
 	padding: 100px 150px 0px 150px;
 	margin-bottom: 0px !important;
 	background-color: #0c2050;
@@ -1523,13 +1523,13 @@ select {
 }
 
 @media screen and (max-width: 1025px) {
-	.jumbotronfooter {
+	.section-footer {
 		padding: 100px 50px 0px 50px;
 	}
 }
 
 @media screen and (max-width: 769px) {
-	.jumbotronfooter {
+	.section-footer {
 		padding: 100px 50px 0px 50px;
 	}
 }
@@ -1851,7 +1851,7 @@ select {
 	}
 }
 
-.jumbotronfooter hr {
+.section-footer hr {
 	width: 100%;
 	text-align: center;
 	border: 1px solid grey;
